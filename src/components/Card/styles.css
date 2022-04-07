@@ -5,11 +5,24 @@
     border-radius: 10px;
     position: relative;
     margin: 20px;
-    border: 1px solid blue;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(44, 246, 3);
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 img {
     width: 250px;
+}
+
+.card:hover {
+    box-shadow: 0 0 25px rgb(161, 161, 161);
+}
+
+.card:active {
+    box-shadow: inset 0 0 10px rgb(57, 56, 56);
 }
